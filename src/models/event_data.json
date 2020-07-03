@@ -1,0 +1,58 @@
+{
+    "project":"minato",
+    "description" : "Processo de extração da base ct2 para construção de algumas bases do Minato",
+    "destiny":"profit_loss",
+    "base_name":"ct2",
+    "ownership":"Marcus Mendes",
+    "data_owner":"Vinne",
+    "process":"extract",
+    "describe":"xxxxxxxxxxx",
+    "columns":"[id_pedped,date,id_product]",
+    "rows_counter" : 1532,
+    "count_duplicates" : 0,
+    "source" : "protheus",
+    "time_to_process": 3600,
+    "event_send" : "2019-06-29 15:00:25"
+}
+{
+    "project":"minato",
+    "description" : "Processo de extração da base fc_pedped para construção de algumas bases do Minato",
+    "destiny":"profit_loss",
+    "base_name":"fc_pedped",
+    "ownership":"Marcus Mendes",
+    "data_owner":"Falcão",
+    "process":"extract",
+    "describe":"xxxxxxxxxxx",
+    "columns":"[id_pedped,date,id_product]",
+    "rows_counter" : 1400,
+    "count_duplicates" : 0,
+    "source" : "first class",
+    "time_to_process": 2546,
+    "event_send" : "2019-06-29 15:00:25" 
+}
+{
+    "project":"teste",
+    "description" : "Processo de extração da base fc_pedped para construção de algumas bases do Minato",
+    "destiny":"profit_loss",
+    "base_name":"profit_loss",
+    "owner":"Marcus Mendes",
+    "data_owner":"[Vinne, Falcão]",
+    "process":"transform",
+    "describe":"xxxxxxxxxxx",
+    "columns":"[id_pedped,date,id_product]",
+    "rows_counter" : 1932,
+    "count_duplicates" : 0,
+    "source" : "transform",
+    "time_to_process": 2546,
+    "event_send" : "2019-06-29 15:00:25" 
+}
+
+
+
+{
+    "project":"teste",
+    "base_name":"profit_loss",
+    "owner":"Marcus Mendes", 
+    "data_catalog" : "[{column : id_pedped, data_type : int, comment : xablau},{column : id_pedped, data_type : int, comment : xablau}]",
+    "event_send" : "2019-06-29 15:00:25" 
+}   
